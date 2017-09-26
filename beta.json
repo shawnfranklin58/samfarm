@@ -1,6 +1,6 @@
 {
     "Parameters": {
-        "SamMultipler": "4",
+        "SamMultipler": "10",
         "OriginUrl": "http://sf-teststack-samfarmdemo-s3bucket-2zn963yrm28s.s3-website-us-west-2.amazonaws.com"
     }
 }
