@@ -1,5 +1,5 @@
 'use strict';
-var moment = require('moment');
+// var moment = require('moment');
 
 exports.handler = (event, context, callback) => {
 
@@ -9,7 +9,7 @@ exports.handler = (event, context, callback) => {
 
     // This variable can be updated and checked in to your repository 
     // to update the number of SAM squirrels on the screen.
-    var samCount = 60;
+    var samCount = 600;
 
     // Or you can update your Lambda function's environment variable.
     var samMultiplier = process.env.SAM_MULTIPLIER || 1;
@@ -33,10 +33,10 @@ exports.handler = (event, context, callback) => {
 }
 
 function emitLambdaAge() {
-    var now = moment();
-    var lambdaAnnouncement = moment('2014-11-04');
+//    var now = moment();
+ //   var lambdaAnnouncement = moment('2014-11-04');
 
-    var daysOld = now.diff(lambdaAnnouncement, 'days');
+ //   var daysOld = now.diff(lambdaAnnouncement, 'days');
 
-    console.log('Lambda is ' + daysOld + ' days old!');
+    console.log('Lambda is ' + 3 + ' days old!');
 }
